@@ -1,0 +1,58 @@
+File and Directory Management
+- ls: List directory contents.
+- cd [directory]: Change directory.
+- pwd: Print working directory.
+- mkdir [directory]: Create a new directory.
+- rmdir [directory]: Remove an empty directory.
+- rm [file]: Remove a file.
+- rm -r [directory]: Remove a directory and its contents.
+- cp [source] [destination]: Copy files or directories.
+- mv [source] [destination]: Move or rename files or directories.
+- touch [file]: Create an empty file or update the timestamp of an existing file.
+- cat [file]: Concatenate and display the content of a file.
+- nano [file], vim [file], gedit [file]: Edit a file with different text editors
+File Permissions
+- chmod [options] [permissions] [file]: Change the permissions of a file or directory.
+- chown [owner]:[group] [file]: Change the ownership of a file or directory.
+- chgrp [group] [file]: Change the group ownership of a file or directory.
+System Information
+- uname -a: Show system and kernel information.
+- df -h: Display disk space usage in a human-readable format.
+- du -h [directory]: Display directory space usage.
+- top: Display real-time system processes and resource usage.
+- ps aux: Display a snapshot of all current processes.
+- free -h: Display memory usage.
+Network
+- ifconfig: Display or configure network interfaces (deprecated, use ip).
+- ip a: Display all network interfaces and their IP addresses.
+- ping [host]: Send ICMP ECHO_REQUEST to network hosts.
+- wget [url]: Download files from the web.
+- curl [url]: Transfer data from or to a server.
+- ssh [user]@[host]: Connect to a remote host via SSH.
+Package Management (varies by distribution)
+- Debian/Ubuntu: apt-get update, apt-get upgrade, apt-get install [package]
+- Red Hat/CentOS: yum update, yum install [package]
+- Arch Linux: pacman -Syu, pacman -S [package]
+Searching
+- grep [pattern] [file]: Search for a pattern in a file.
+- find [directory] -name [pattern]: Search for files and directories.
+Compression
+- tar -czvf [archive.tar.gz] [directory]: Create a compressed tarball.
+- tar -xzvf [archive.tar.gz]: Extract a compressed tarball.
+- zip [archive.zip] [file]: Create a zip archive.
+- unzip [archive.zip]: Extract a zip archive.
+ User Management
+- adduser [username]: Add a new user.
+- passwd [username]: Change a user's password.
+- usermod -aG [group] [username]: Add a user to a group.
+- deluser [username]: Delete a user.
+
+
+
+
+
+
+
+
+
+
